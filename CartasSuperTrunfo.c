@@ -35,7 +35,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &carta1.numPontosTuristicos);
     
-    // ATENÇÃO: Sem IF, a divisão por zero pode TRAVAR o programa
+    
     // Certifique-se de que a Área e a População digitadas NÃO sejam zero.
     carta1.densidadePopulacional = (float)carta1.populacao / carta1.area;
     carta1.pibPerCapita = carta1.pib / (float)carta1.populacao;
@@ -54,7 +54,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &carta2.numPontosTuristicos);
     
-    // ATENÇÃO: Sem IF, a divisão por zero pode TRAVAR o programa
+    
     // Certifique-se de que a Área e a População digitadas NÃO sejam zero.
     carta2.densidadePopulacional = (float)carta2.populacao / carta2.area;
     carta2.pibPerCapita = carta2.pib / (float)carta2.populacao;
