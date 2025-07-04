@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 typedef struct {
-    char codigoCarta[4]; 
+    char codigoCarta[3]; 
     int populacao;
     float area;
     float pib;
@@ -9,6 +9,10 @@ typedef struct {
 } Carta;
 
 int main() {
+    // --- Introdução ao Jogo ---
+    printf("Bem-vindo ao Jogo Super Trunfo!\n");
+    printf("-------------------------------\n\n");
+    // -------------------------
     Carta carta1, carta2;
 
     // Leitura dos dados da Carta 1
